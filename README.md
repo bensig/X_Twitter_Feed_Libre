@@ -16,3 +16,13 @@ Here is the data to add to the bottom of index.json:
     "1687146117396406284"
   ]
 ```
+
+This can be done by typing:
+
+`python add_tweet BENN https://twitter.com/bensig/status/1687146117396406284`
+
+or 
+
+`python add_tweet BENN 1687146117396406284`
+
+We will review and merge these PRs. Thanks!
