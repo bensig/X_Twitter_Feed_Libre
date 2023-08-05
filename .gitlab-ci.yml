@@ -1,0 +1,12 @@
+stages:
+  - publish
+
+publish_index_json:
+  stage: publish
+  script:
+    - cp index.json public/
+  artifacts:
+    paths:
+      - public/index.json
+  only:
+    - master
