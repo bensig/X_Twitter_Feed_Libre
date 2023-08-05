@@ -9,13 +9,6 @@ Example:
 Here is a tweet - let's say I want to make this show for the token "BENN":
 https://twitter.com/bensig/status/1687146117396406284
 
-Here is the data to add to the bottom of index.json:
-
-```
-  "BENN": [
-    "1687146117396406284"
-  ]
-```
 
 This can be done by typing:
 
@@ -24,5 +17,13 @@ This can be done by typing:
 or 
 
 `python add_tweet BENN 1687146117396406284`
+
+Here is the data that will be added to the bottom of index.json:
+
+```
+  "BENN": [
+    "1687146117396406284"
+  ]
+```
 
 We will review and merge these PRs. Thanks!
